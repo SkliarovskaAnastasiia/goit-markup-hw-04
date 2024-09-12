@@ -173,9 +173,7 @@ body {
 
 .nav-link,
 .contacts-link {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -228,9 +226,7 @@ body {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-olor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-section-button:hover,
@@ -291,7 +287,6 @@ body {
   flex-direction: column;
   border-radius: 0 0 4px 4px;
   width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
 }
 
@@ -334,9 +329,7 @@ body {
   padding: 12px;
   background-color: #4d5ae5;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-icon {
@@ -359,9 +352,7 @@ body {
 .portfolio-description-item {
   width: calc((100% - 48px) / 3);
 
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-description-item:hover,
@@ -390,9 +381,7 @@ body {
   height: 100%;
   transform: translateY(100%);
 
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-description-item:hover .portfolio-overlay,
@@ -475,9 +464,7 @@ body {
   padding: 8px;
   background-color: #4d5ae5;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-media-links:hover,
