@@ -133,12 +133,12 @@ body {
   padding-bottom: 24px;
 }
 
-.nav-link-active {
+.nav-link.current {
   color: #404bbf;
   position: relative;
 }
 
-.nav-link-active::after {
+.nav-link.current::after {
   display: block;
   content: '';
 
